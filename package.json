@@ -15,8 +15,7 @@
     "react-delay-render": "^0.1.2",
     "react-dom": "^18.2.0",
     "react-imported-component": "^6.5.3",
-    "react-router-dom": "^6.11.2",
-    "semantic-ui-react": "^2.1.4"
+    "react-router-dom": "^6.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.22.1",
