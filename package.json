@@ -51,5 +51,8 @@
       "public/*"
     ],
     "exec": "yarn build"
+  },
+  "prettier": {
+    "semi": false
   }
 }
