@@ -51,6 +51,16 @@
     ],
     "exec": "yarn build"
   },
+  "babel": {
+    "presets": [
+      ["@babel/preset-env", { "modules": false }],
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
   "prettier": {
     "semi": false
   }
