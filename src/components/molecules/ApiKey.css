@@ -1,0 +1,29 @@
+@keyframes red-blink {
+	0% {
+		border: 4px solid red;
+		background: red;
+		color: white;
+	}
+	50% {
+		border: 4px solid orange;
+		background: orange;
+		color: black;
+	}
+	100% {
+		border: 4px solid red;
+		background: red;
+		color: white;
+	}
+	
+}
+
+.apikey-missing {
+	animation: red-blink 0.5s infinite;
+	background: red;
+}
+
+.apikey-valid {
+	border: 4px solid green;
+	background: green;
+	color: white;
+}

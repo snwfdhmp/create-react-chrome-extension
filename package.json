@@ -41,15 +41,26 @@
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "nodemonConfig": {
     "ignore": [
       "dist/*"
     ],
     "watch": [
-      "src/*",
-      "public/*"
+      "src/**",
+      "public/**"
     ],
-    "exec": "yarn build"
+    "exec": "yarn build",
+    "ext": "js,jsx,ts,tsx,html,css,scss,json,md"
   },
   "babel": {
     "presets": [
@@ -62,6 +73,7 @@
     ]
   },
   "prettier": {
-    "semi": false
+    "semi": false,
+    "trailingComma": "all"
   }
 }

@@ -1,9 +1,25 @@
-import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+/*global chrome*/
+import React, { useState, useEffect } from "react"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
-import Home from "./views/Home";
-import AnotherView from "./views/Another";
-import NoMatchView from "./views/NoMatch";
+import Home from "./views/Home"
+import AnotherView from "./views/Another"
+import NoMatchView from "./views/NoMatch"
+
+const App = () => {
+  // current text content
+  const [content, setContent] = useState("")
+  // user prompt
+  const [userPrompt, setUserPrompt] = useState("")
+
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  )
+}
+
+export default App
 
 const router = createBrowserRouter([
   {
@@ -22,16 +38,4 @@ const router = createBrowserRouter([
     path: "*",
     element: <NoMatchView />,
   },
-]);
-
-const App = () => {
-  return (
-    <>
-      <h1>React loaded</h1>
-      {/* <p>{location}</p> */}
-      <RouterProvider router={router} />
-    </>
-  );
-};
-
-export default App;
+])

@@ -1,3 +1,26 @@
-* {
-	background-color: #F9F9FB;
+body {
+  margin: 0;
+  font-family: "colfax-web", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 360px;
+  max-width: 360px;
+  min-height: 450px;
+  max-height: 450px;
+  background-color: #F9F9FB;
+  font-size: 0.9em;
+  padding: 0.5em;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: black;
+}
+
+h3 {
+	color: #888;
 }

@@ -1,13 +1,8 @@
-# React for Chrome Extension
+# GPT Chrome Extension
 
-This is a good starting point if you want to create a Chrome / Firefox extension using React.
-
-## Usage
-
-```bash
-$ yarn # install dependencies
-$ yarn dev # run development server
-$ yarn build-prod # build for production
-```
-
-The unpacked extension is built in `./dist`.
+- Set API Key
+- Show current webpage content
+- Summarize
+- Chat about content
+- Persist ?
+- Count tokens
