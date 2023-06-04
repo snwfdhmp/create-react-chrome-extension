@@ -6,6 +6,8 @@
 
 Create-React-Chrome-Extension is a template for building Chrome and Firefox extensions using React and state-of-the-art settings. This project aims to provide a solid starting point for developers looking to create browser extensions with modern web technologies.
 
+Consider giving it a ⭐️ if you like it to show your support!
+
 ## Features
 
 - **React**: Build your extension's UI with the popular JavaScript library.
