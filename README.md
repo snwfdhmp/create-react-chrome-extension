@@ -1,9 +1,5 @@
 # create-react-chrome-extension
 
-[![GitHub stars](https://img.shields.io/github/stars/snwfdhmp/create-react-chrome-extension)](https://github.com/snwfdhmp/create-react-chrome-extension/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/snwfdhmp/create-react-chrome-extension)](https://github.com/snwfdhmp/create-react-chrome-extension/network)
-[![GitHub issues](https://img.shields.io/github/issues/snwfdhmp/create-react-chrome-extension)](https://github.com/snwfdhmp/create-react-chrome-extension/issues)
-
 create-react-chrome-extension is a template for building Chrome and Firefox extensions using React and state-of-the-art settings. This project aims to provide a solid starting point for developers looking to create browser extensions with modern web technologies.
 
 Consider giving it a ⭐️ if you like it to show your support!
